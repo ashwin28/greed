@@ -4,7 +4,7 @@ module Greed
   	attr_reader :name, :total_points
 
     def initialize(name)
-	  @name = name
+      @name = name
       @total_points = 0
       @dice = DiceSet.new
   	end
